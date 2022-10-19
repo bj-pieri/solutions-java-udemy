@@ -1,6 +1,7 @@
 public class Main {
+// a simple program that converts KB in MB
     public static void main(String[] args) {
-        printMegaBytesAndKiloBytes(2500);
+        printMegaBytesAndKiloBytes(2500); // write the value to be converted inside the parenthesis
     }
     public static void printMegaBytesAndKiloBytes (int kiloBytes) {
         if (kiloBytes < 0) {
