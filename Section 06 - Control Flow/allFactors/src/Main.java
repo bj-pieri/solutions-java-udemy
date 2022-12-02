@@ -6,7 +6,7 @@ public class Main {
     public static void printFactors(int number) {
         if (number < 0) System.out.println("Invalid Value");
 
-        for(int looper = 1;looper <= number; looper++) {
+        for(int looper = 1; looper <= (number / 2); looper++) {
             int factorial = looper;
             if (number % factorial == 0 ) System.out.println(factorial);
         }
