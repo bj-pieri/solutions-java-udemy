@@ -4,9 +4,7 @@ public class Main {
     }
 
     public static void printFactors(int number) {
-        if (number < 0) {
-            System.out.println("Invalid Value");;
-        }
+        if (number < 0) System.out.println("Invalid Value");
 
         for(int looper = 1;looper <= number; looper++) {
             int factorial = looper;
