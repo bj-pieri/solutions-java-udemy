@@ -10,11 +10,8 @@ public class Main {
         int sumVerifier = 0;
 
         for (int factorial = 1; factorial <= (number/2); factorial++) {
-            if(number % factorial == 0) {
-                sumVerifier +=factorial;
-            }
+            if(number % factorial == 0) sumVerifier +=factorial;
         }
-
         return (sumVerifier == number) ;
     }
 
